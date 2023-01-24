@@ -6,17 +6,23 @@
 
 a {
   text-decoration: none;
-  color: rgb(100, 105, 113);
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .hero-header,
 nav,
 footer {
   background-color: rgb(31, 41, 55);
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 .header-logo {
   font-size: 20px;
+  display: flex;
+  color: #ffffff;
+}
+
+nav {
   display: flex;
 }
