@@ -7,7 +7,22 @@
 a {
   text-decoration: none;
   color: #e5e7eb;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 38px;
+  text-align: center;
+  padding: 40px;
+}
+
+p {
   font-size: 18px;
+  color: #e5e7eb;
 }
 
 .hero-header,
@@ -21,8 +36,29 @@ footer {
   font-size: 20px;
   display: flex;
   color: #ffffff;
+  padding: 15px;
 }
 
 nav {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-weight: 500;
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+
+span {
+  font-style: normal;
+}
+
+.call-to-action {
+  color: #e5e7eb;
+  background-color: #3882f6;
 }
