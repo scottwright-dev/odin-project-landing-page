@@ -4,10 +4,25 @@
   font-family: "roboto", helvetica, sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+section:last-of-type {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+}
+
 a {
   text-decoration: none;
   color: #e5e7eb;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 h1 {
@@ -33,15 +48,16 @@ footer {
 }
 
 .header-logo {
-  font-size: 20px;
+  font-size: 24px;
   display: flex;
   color: #ffffff;
-  padding: 15px;
+  margin-left: 80px;
+  margin-right: auto;
 }
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
   font-weight: 500;
