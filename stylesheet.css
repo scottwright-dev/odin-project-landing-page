@@ -29,14 +29,23 @@ nav {
   padding-right: 100px;
 }
 
+.hero-header {
+  padding-left: 100px;
+  padding-right: 25px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
 .header-logo {
-  font-size: 24px;
+  font-size: 20px;
   display: flex;
   color: #ffffff;
   margin: 0 80px 0 auto;
 }
 
 .hero-image-container {
+  display: flex;
   width: 400px;
   height: 200px;
 }
@@ -54,7 +63,8 @@ li {
 a {
   text-decoration: none;
   color: #e5e7eb;
-  font-size: 20px;
+  font-weight: 300;
+  font-size: 16px;
 }
 
 h1 {
@@ -72,8 +82,18 @@ h4 {
 }
 
 p {
+  font-weight: 300;
   font-size: 18px;
   color: #e5e7eb;
+}
+
+button {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 8px 16px 8px 16px;
+  font-weight: 500;
 }
 
 .quote-container {
