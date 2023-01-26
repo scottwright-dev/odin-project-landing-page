@@ -29,6 +29,12 @@ nav {
   padding-right: 100px;
 }
 
+.hero-section {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* margin: none; */
+}
+
 .hero-header {
   padding-left: 100px;
   padding-right: 25px;
@@ -41,11 +47,11 @@ nav {
   font-size: 20px;
   display: flex;
   color: #ffffff;
-  margin: 0 80px 0 auto;
+  margin: auto;
+  margin-left: 100px;
 }
 
 .hero-image-container {
-  display: flex;
   width: 400px;
   height: 200px;
 }
@@ -56,8 +62,18 @@ img {
   object-fit: cover;
 }
 
+ul {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
 li {
-  border: 2px solid blue;
+  border: 3px solid #3882f6;
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  margin: 20px;
 }
 
 a {
@@ -74,7 +90,12 @@ h1 {
 h2 {
   font-size: 38px;
   text-align: center;
-  padding: 40px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+h3 {
+  font-weight: 100;
 }
 
 h4 {
@@ -82,7 +103,7 @@ h4 {
 }
 
 p {
-  font-weight: 300;
+  font-weight: 200;
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -92,8 +113,10 @@ button {
   border: none;
   border-radius: 4px;
   color: #ffffff;
-  padding: 8px 16px 8px 16px;
-  font-weight: 500;
+  padding: 8px 22px 8px 22px;
+  width: 90px;
+  margin-top: 10px;
+  margin-bottom: 100px;
 }
 
 .quote-container {
@@ -101,10 +124,7 @@ button {
   font-size: 36px;
   color: #1f2937;
   font-style: italic;
-}
-
-span {
-  font-style: normal;
+  padding: 100px 50px;
 }
 
 .call-to-action {
