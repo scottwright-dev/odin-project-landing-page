@@ -64,11 +64,12 @@ ul {
 }
 
 li {
-  border: 3px solid #3882f6;
+  border: 3px solid rgb(31, 41, 55);
   width: 100px;
   height: 100px;
   border-radius: 8px;
   margin: 20px;
+  list-style-type: none;
 }
 
 a {
@@ -97,6 +98,7 @@ h3 {
 
 h4 {
   color: #ffffff;
+  font-size: 20px;
 }
 
 p {
@@ -113,8 +115,7 @@ button {
   width: 90px;
   color: #ffffff;
   padding: 8px 22px 8px 22px;
-  margin-top: 10px;
-  margin-bottom: 100px;
+  margin: auto;
 }
 
 .card-description {
@@ -138,14 +139,11 @@ button {
 }
 
 .call-to-action {
-  width: 700px;
-  margin: 80px;
-  padding: 50px;
-  border-radius: 4px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  flex: 0;
+  margin: 80px;
+  padding: 30px 80px;
+  border-radius: 6px;
   color: #e5e7eb;
   background-color: #3882f6;
 }
@@ -154,7 +152,14 @@ button {
   border: 2px solid white;
   border-radius: 4px;
   color: #ffffff;
-  width: 90px;
+  padding: 5px;
+  margin: 0;
+}
+
+.call-to-action > p {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 footer {
