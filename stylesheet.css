@@ -19,6 +19,11 @@ footer {
   color: #e5e7eb;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
 .header-logo {
   font-size: 20px;
   display: flex;
@@ -40,19 +45,25 @@ nav {
 
 .hero-section {
   display: flex;
-  flex-direction: column;
-  padding: 0 100px;
+  align-items: center; /* align elements vertically */
+  justify-content: space-between; /* align elements horizontally */
+}
+
+.hero-text {
+  padding-left: 100px;
+  width: 60%;
 }
 
 .hero-image-container {
   display: flex;
-  width: 400px;
-  height: 200px;
+  flex-direction: row;
+  width: 40%;
 }
 
-img {
-  width: 100%;
-  height: 100%;
+.hero-image-container img {
+  max-width: 400px;
+  max-height: 200px;
+  object-fit: cover;
 }
 
 ul {
