@@ -165,13 +165,13 @@ button {
   font-size: 36px;
   color: #1f2937;
   font-style: italic;
-  padding: 100px 50px;
+  padding: 100px;
 }
 
 .author {
-  margin-top: 0px;
   align-self: end;
   font-weight: 900;
+  padding-right: 40px;
 }
 
 .call-to-action {
