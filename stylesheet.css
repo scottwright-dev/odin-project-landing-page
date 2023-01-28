@@ -158,11 +158,20 @@ button {
 }
 
 .quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #e5e7eb;
   font-size: 36px;
   color: #1f2937;
   font-style: italic;
   padding: 100px 50px;
+}
+
+.author {
+  margin-top: 0px;
+  align-self: end;
+  font-weight: 900;
 }
 
 .call-to-action {
