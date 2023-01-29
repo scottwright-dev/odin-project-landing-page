@@ -176,7 +176,8 @@ button {
 
 .call-to-action {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   margin: 80px;
   padding: 30px 80px;
   border-radius: 6px;
@@ -188,6 +189,7 @@ button {
   width: 100%;
   font-size: 18px;
   font-weight: 300;
+  align-self: flex-end;
 }
 
 .call-to-action > a {
