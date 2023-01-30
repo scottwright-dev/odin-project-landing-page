@@ -79,10 +79,10 @@ ul {
 
 li {
   border: 3px solid rgb(31, 41, 55);
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 8px;
-  margin: 16px;
+  margin: 20px;
   list-style-type: none;
 }
 
