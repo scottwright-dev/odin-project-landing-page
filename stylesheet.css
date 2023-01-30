@@ -98,6 +98,7 @@ h1 {
   color: #ffffff;
   line-height: 45px;
   margin-bottom: 10px;
+  width: 65%;
 }
 
 h2 {
@@ -117,7 +118,7 @@ h4 {
 }
 
 p {
-  width: 80%;
+  width: 70%;
   margin-top: 5px;
 }
 
