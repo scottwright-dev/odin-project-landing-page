@@ -124,8 +124,7 @@ p {
   margin-top: 5px;
 }
 
-.sign-up-button,
-.button-inverted {
+.sign-up-button {
   background-color: #3882f6;
   border: none;
   border-radius: 4px;
@@ -187,7 +186,7 @@ p {
 
 .action-title {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .call-to-action > p {
@@ -197,9 +196,26 @@ p {
 }
 
 .call-to-action > a {
+  display: inline-block;
   border: 2px solid white;
   border-radius: 4px;
-  display: inline-block;
+}
+
+.button-container {
+  float: right;
+  margin-top: -50px;
+}
+
+.button-inverted {
+  background-color: #3882f6;
+  border: #ffffff 2px solid;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 8px 22px 8px 22px;
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
 }
 
 footer {
