@@ -134,6 +134,11 @@ p {
   cursor: pointer;
 }
 
+.sign-up-button:hover {
+  background-color: #ffffff;
+  color: #3882f6;
+}
+
 .info-cards {
   padding-bottom: 60px;
   display: flex;
@@ -213,6 +218,11 @@ p {
   display: block;
   text-align: center;
   cursor: pointer;
+}
+
+.button-inverted:hover {
+  background-color: #ffffff;
+  color: #3882f6;
 }
 
 footer {
