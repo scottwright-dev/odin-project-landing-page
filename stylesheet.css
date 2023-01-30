@@ -160,10 +160,10 @@ p {
   flex-direction: column;
   justify-content: center;
   background-color: #e5e7eb;
-  font-size: 36px;
+  font-size: 26px;
   color: #1f2937;
   font-style: italic;
-  padding: 100px;
+  padding: 60px;
 }
 
 .author {
