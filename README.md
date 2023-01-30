@@ -1,6 +1,7 @@
 # odin-project-landing-page
 
-**Project Description:** Create a static mock up landing page from a provided design.
+**Project Description:** Create a static mock up landing page from a provided design. Full responsiveness was not a requirement. 
+This project focuses on CSS and HTML styling of a desktop site only.
 
 **Technologies:** HTML / CSS
 
