@@ -124,16 +124,8 @@ p {
   margin-top: 5px;
 }
 
-/* button {
-  background-color: #3882f6;
-  border: none;
-  border-radius: 4px;
-  color: #ffffff;
-  padding: 8px 22px 8px 22px;
-  margin-top: 10px;
-} */
-
-.sign-up-button {
+.sign-up-button,
+.button-inverted {
   background-color: #3882f6;
   border: none;
   border-radius: 4px;
