@@ -7,7 +7,7 @@ This project focuses on CSS and HTML styling of a desktop site only.
 
 **License:** Images from [www.unsplash.com](https://unsplash.com/)
 
-**To view my solution:** [Click here](https://scottwright-io.github.io/odin-project-landing-page/)
+**To view my solution:** [Click here](https://scottwright-dev.github.io/odin-project-landing-page/)
 
 **Design to replicate:** See image below.
 
